@@ -1,0 +1,10 @@
+# Paksa semua file Dart dianggap sebagai kode utama
+*.dart linguist-detectable=true
+
+# File YAML, JSON, Markdown, dll. diabaikan sebagai kode
+*.yaml linguist-detectable=false
+*.json linguist-detectable=false
+*.md linguist-detectable=false
+*.lock linguist-detectable=false
+*.sh linguist-detectable=false
+*.gitignore linguist-detectable=false
